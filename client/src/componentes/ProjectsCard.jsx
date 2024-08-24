@@ -1,5 +1,6 @@
 import React from "react";
-import { FcFlashOn, FcNext } from "react-icons/fc";
+import { FcFlashOn } from "react-icons/fc";
+import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function ProjectsCard({
@@ -18,15 +19,15 @@ export default function ProjectsCard({
         <div className="absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 items-center justify-center space-x-4">
           <Link
             to={gitUrl}
-            className="flex items-center justify-center h-14 w-14 border-2 rounded-full border-white hover:border-yellow-300"
+            className="flex items-center justify-center h-14 w-14 border-2 rounded-full border-white hover:border-yellow-300 bg-white"
           >
-            <FcFlashOn className="h-10 w-10 cursor-pointer" />
+            <FaGithub className="h-10 w-10 cursor-pointer text-black" />
           </Link>
           <Link
             to={previewUrl}
             className="flex items-center justify-center h-14 w-14 border-2 rounded-full border-white hover:border-blue-500"
           >
-            <FcNext className="h-10 w-10 cursor-pointer" />
+            <FcFlashOn className="h-10 w-10 cursor-pointer" />
           </Link>
         </div>
       </div>

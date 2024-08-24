@@ -19,7 +19,7 @@ const projectData = [
     description: "Portfolio using React",
     image: "/images/projects/IMG2.png",
     tag: ["All"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/BiankGG/my-portfolio.git",
     previewUrl: "/",
   },
   {
