@@ -88,7 +88,7 @@ const Home = () => {
                       download
                       className="block px-8 py-4 text-white text-xl hover:bg-pink-100 hover:text-pink-500"
                     >
-                      Español
+                      Spanish
                     </a>
                   </div>
                 )}
