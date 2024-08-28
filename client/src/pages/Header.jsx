@@ -8,7 +8,7 @@ const rainbowStyles = `
 
 const Header = () => {
   return (
-    <section className="fixed w-full top-0 left-0 bg-gradient-to-br from-white via-transparent to-black shadow-lg z-50 p-6 flex flex-col md:flex-row md:items-center md:justify-between">
+    <section className="fixed top-0 left-0 w-full bg-gradient-to-br from-white via-transparent to-black shadow-lg z-50 p-6 flex flex-col md:flex-row md:items-center md:justify-between h-16">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className={`text-4xl font-bold ${rainbowStyles}`}>My Portfolio</h1>
         <nav className="mt-4 md:mt-0">

@@ -22,6 +22,17 @@
   }
 }
 
+@media (max-width: 768px) {
+  .pt-header {
+    padding-top: 230px; 
+  }
+}
+
+.fixed {
+  z-index: 50; 
+}
+
+
 .animate-borderColor {
   animation: borderColor 3s infinite linear;
   width: 420px; 

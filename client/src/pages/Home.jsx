@@ -16,7 +16,7 @@ const Home = () => {
     setDropLenguaje(!dropLenguaje);
   };
   return (
-    <section id="home" className="min-h-screen flex items-center pt-20">
+    <section id="home" className="min-h-screen flex items-center pt-header">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 px-8 text-center sm:text-left">
           <motion.div
