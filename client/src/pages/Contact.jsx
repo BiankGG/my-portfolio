@@ -13,7 +13,7 @@ const Contact = () => {
       message: message,
     };
     const JSONdata = JSON.stringify(data);
-    const endpoint = "http://localhost:8000/api/send";
+    const endpoint = "https://my-backend-service-ar2m.onrender.com/api/send";
     const options = {
       method: "POST",
       headers: {
@@ -43,7 +43,10 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="grid md:grid-cols-2 my-16 py-32 gap-12 justify-center items-center mx-auto max-w-6xl px-6">
+    <section
+      id="contact"
+      className="grid md:grid-cols-2 my-16 py-32 gap-12 justify-center items-center mx-auto max-w-6xl px-6"
+    >
       <div className="flex flex-col items-center md:items-start">
         <h5 className="text-4xl font-bold text-white my-6">Let's Connect</h5>
         <p className="text-white mb-8 max-w-xl text-xl leading-relaxed">
