@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors({ origin: '*' }));
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 app.use(bodyParser.json());
 
 const transporter = nodemailer.createTransport({
