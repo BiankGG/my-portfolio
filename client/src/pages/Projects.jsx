@@ -73,7 +73,8 @@ const projectData = [
     description: "username: portfolio , password: portfolio ",
     image: "/images/projects/findrick.png",
     tag: ["All", "BootCamp"],
-    gitUrl: "https://github.com/BiankGG/API-con-LOGIN-TEAM-CHALLENGE-SPRINT-13.git",
+    gitUrl:
+      "https://github.com/BiankGG/API-con-LOGIN-TEAM-CHALLENGE-SPRINT-13.git",
     previewUrl: "/",
   },
 ];
@@ -98,7 +99,12 @@ const Projects = () => {
 
   return (
     <>
-      <h1 id="projects" className="projects-header flex flex-wrap justify-center sm:justify-start px-4 sm:px-8 lg:px-16">My Projects</h1>
+      <h1
+        id="projects"
+        className="projects-header flex flex-wrap justify-center sm:justify-start px-4 sm:px-8 lg:px-16"
+      >
+        My Projects
+      </h1>
       <div className="projects-tag-container flex flex-wrap justify-center sm:justify-start px-4 sm:px-8 lg:px-16">
         <ProjectTag
           onClick={handleTagChange}
@@ -124,11 +130,6 @@ const Projects = () => {
           onClick={handleTagChange}
           name="Front-end"
           isSelected={tag === "Front-end"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Badges"
-          isSelected={tag === "Badges"}
         />
       </div>
       <div className="projects-container">

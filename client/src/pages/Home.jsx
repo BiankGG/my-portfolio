@@ -31,7 +31,7 @@ const Home = () => {
               </span>
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-                Bianca Griffin
+                Bianca G. Griffin
               </span>
               <br />
             </h1>

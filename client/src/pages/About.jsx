@@ -13,8 +13,10 @@ const TAB_INFO = [
         <li>Redux</li>
         <li>Node.js</li>
         <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>SQL</li>
+        <li>Unit Testing (Jest)</li>
+        <li>JWT/Bcrypt</li>
+        <li>Creating REST API</li>
         <li>HTML</li>
         <li>CSS</li>
         <li>Git</li>
@@ -32,6 +34,41 @@ const TAB_INFO = [
         </li>
         <li>The Bridge, Bootcamp Fullstack Developer, Seville/Spain</li>
       </ul>
+    ),
+  },
+  {
+    title: "Certificacion",
+    id: "Certificacion",
+    content: (
+      <div className="flex items-center">
+      <div className="w-48 h-48 bg-cover bg-center rounded-lg" 
+           style={{ backgroundImage: "url('/images/projects/DiplomaTB.png')" }}>
+      </div>
+      <a
+        href="/certificados/Diploma.pdf"
+        download
+        className="ml-4 text-white bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg"
+      >
+        Download Certificacion
+      </a>
+    </div>
+    ),
+  },{
+    title: "Academic Badges",
+    id: "Academic Badges",
+    content: (
+      <div className="flex items-center">
+      <div className="w-48 h-48 bg-cover bg-center rounded-lg" 
+           style={{ backgroundImage: "url('/images/projects/badgesTB.png')" }}>
+      </div>
+      <a
+        href="/certificados/badges.pdf"
+        download
+        className="ml-4 text-white bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg"
+      >
+        Academic FS Badges
+      </a>
+    </div>
     ),
   },
   {
@@ -142,6 +179,18 @@ const About = () => {
               active={tab === "Education"}
             >
               Education
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("Certificacion")}
+              active={tab === "Certificacion"}
+            >
+              Certificacion
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("Academic Badges")}
+              active={tab === "Academic Badges"}
+            >
+              Academic FS Badges
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("Experience")}
