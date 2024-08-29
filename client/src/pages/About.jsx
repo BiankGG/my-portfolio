@@ -42,10 +42,10 @@ const TAB_INFO = [
     content: (
       <div className="flex items-center">
       <div className="w-48 h-48 bg-cover bg-center rounded-lg" 
-           style={{ backgroundImage: "url('/images/projects/DiplomaTB.png')" }}>
+           style={{ backgroundImage: "url('/certificados/linkDiploma.png')" }}>
       </div>
       <a
-        href="/certificados/Diploma.pdf"
+        href="/certificados/linkDiploma.png"
         download
         className="ml-4 text-white bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg"
       >
